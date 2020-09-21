@@ -8,7 +8,7 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: zhangcm                          # the main title
+title: zhangcm12                          # the main title
 
 tagline: 一名小码农.  # it will display as the sub-title
 
@@ -31,7 +31,7 @@ twitter:
   username: zhangcm            # change to your twitter username
 
 social:
-  name: zhangcm                  # it will shows as the copyright owner in Footer
+  name: zhangcm123                  # it will shows as the copyright owner in Footer
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -78,7 +78,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dual
+theme_mode: light
 
 # boolean type, global switch for ToC in posts.
 toc: true
