@@ -193,8 +193,8 @@ sitemap_exclude:  # Sitemap will exclude the following items.
   accurate:
     - /norobots/
     - /tabs/
-    - /categories/
-    - /tags/
+#    - /categories/
+#    - /tags/
     - /posts/
     - 404.html
     - feed.xml
