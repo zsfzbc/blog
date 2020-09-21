@@ -7,12 +7,12 @@ baseurl: '/blog'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: '张春明'
+  name: 'zhangcm'
   email: 1406548180@qq.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  twitter_username: zsfzbc
+  facebook_username: zsfzbc
+  github_username:  zsfzbc
+  linkedin_username:  zsfzbc
 
 defaults:
   -
