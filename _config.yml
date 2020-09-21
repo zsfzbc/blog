@@ -10,7 +10,7 @@
 
 title: 张春明                          # the main title
 
-tagline: 一名小码农.  # it will display as the sub-title
+tagline: 君子生非异也，善假于物也。  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -18,7 +18,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://zsfzbc.github.io/blog/'
+url: 'https://zsfzbc.github.io'
 
 author: zsfzbc                  # change to your full name
 
