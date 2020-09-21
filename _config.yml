@@ -137,7 +137,7 @@ defaults:
           url: /
         -
           label: Tags
-          url: /tabs/tags/
+          url: /tabs/
   -
     scope:
       path: categories
