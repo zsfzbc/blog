@@ -24,7 +24,7 @@
   url: archives
   icon: "fas fa-archive"
 -
-  name: "About"
+  name: "关于"
   icon: "fas fa-info"
   path: tabs
   url: about
