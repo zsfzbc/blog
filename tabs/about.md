@@ -1,7 +1,7 @@
 ---
-title: About
+title: 关于
 
-# The About page
+# The 关于 page
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
 # © 2017-2020 zhang chunming
