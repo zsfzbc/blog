@@ -20,7 +20,7 @@ description: >-                        # used by seo meta and the atom feed
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://zsfzbc.github.io/blog/'
 
-author: zhangcm                  # change to your full name
+author: zhangcm2                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -28,7 +28,7 @@ github:
   username: 张春明             # change to your github username
 
 twitter:
-  username: zhangcm            # change to your twitter username
+  username: zhangcm3            # change to your twitter username
 
 social:
   name: zhangcm123                  # it will shows as the copyright owner in Footer
@@ -36,7 +36,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/zsfzbc       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
