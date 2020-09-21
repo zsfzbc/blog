@@ -1,6 +1,6 @@
-# jekyll-uno
+# 个人技术博客
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+日常技术文章
 
 > :warning:
   This theme requires ruby and rubygems installed
@@ -31,12 +31,13 @@ Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno
 
 ---
 
-### Demo and Download
+## 更新博客
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+### markdown编辑器:
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+[小书匠markdown编辑器](http://markdown.xiaoshujiang.com/)
+
+
 
 ---
 
