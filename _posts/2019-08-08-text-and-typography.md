@@ -5,30 +5,27 @@ date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
-image: /assets/img/sample/devices-mockup.png
 ---
 
-This Jekyll template totally compatible with Markdown syntax. Now, let's have a look at the text and typography.
-
+This Jekyll template totally compatible with Markdown syntax. Now, let's take a look for the text and typography in here.
 
 ## Titles
 
----
-
+***
 # H1
 
 <h2 data-toc-skip>H2</h2>
 
 <h3 data-toc-skip>H3</h3>
 
-<h4>H4</h4>
+#### H4
 
----
+***
 
 ## Paragraph
 
 I wandered lonely as a cloud
-``
+
 That floats on high o'er vales and hills,
 
 When all at once I saw a crowd,
@@ -39,33 +36,17 @@ Beside the lake, beneath the trees,
 
 Fluttering and dancing in the breeze.
 
-## List
-
-### Ordered list
-
-1. first item
-2. second item
-3. third item
-
-### Unordered list
-
-- item 1
-	- sub item 1
-	- sub item 2
-
-- item 2
-
 ## Block Quote
 
 > This line to shows the Block Quote.
 
 ## Tables
 
-| Company                      | contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
+|Company|Contact|Country|
+|:---|:--|---:|
+|Alfreds Futterkiste | Maria Anders | Germany
+|Island Trading | Helen Bennett | UK
+|Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy
 
 ## Link
 
@@ -79,7 +60,7 @@ Click the hook will locate the footnote[^footnote].
 
 ## Image
 
-![Desktop View](../assets/img/sample/mockup.png)
+![Desktop View]({{ "/assets/img/sample/mockup.png" | relative_url }})
 
 
 ## Inline code

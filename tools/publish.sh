@@ -13,22 +13,26 @@ CATEGORIES=false
 TAGS=false
 LASTMOD=false
 
-WORK_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
+WORK_DIR=$(dirname $(dirname $(realpath "$0")))
 
 check_status() {
   local _change=$(git status . -s)
 
-  if [[ ! -z $_change ]]; then
+  if [[ ! -z ${_change} ]]; then
     echo "Warning: Commit the following changes first:"
     echo "$_change"
     exit 1
   fi
 }
 
+
 update_files() {
   bash _scripts/sh/create_pages.sh
   bash _scripts/sh/dump_lastmod.sh
+
+  find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 }
+
 
 commit() {
   msg="Updated"
@@ -41,7 +45,7 @@ commit() {
 
   if [[ ! -z $(git status tags -s) ]]; then
     git add tags/
-    if $CATEGORIES; then
+    if [[ $CATEGORIES = true ]]; then
       msg+=","
     else
       msg+=" the"
@@ -50,9 +54,9 @@ commit() {
     TAGS=true
   fi
 
-  if [[ -n $(git status _data -s) ]]; then
+  if [[ ! -z $(git status _data -s) ]]; then
     git add _data
-    if $CATEGORIES || $TAGS; then
+    if [[ $CATEGORIES = true || $TAGS = true ]]; then
       msg+=","
     else
       msg+=" the"
@@ -61,7 +65,7 @@ commit() {
     LASTMOD=true
   fi
 
-  if $CATEGORIES || $TAGS || $LASTMOD; then
+  if [[ $CATEGORIES = true || $TAGS = true || $LASTMOD = true ]]; then
     msg+=" for post(s)."
     git commit -m "[Automation] $msg" -q
   else
@@ -70,14 +74,16 @@ commit() {
 
 }
 
+
 push() {
   git push origin master -q
   echo "[INFO] Published successfully!"
 }
 
+
 main() {
 
-  cd "$WORK_DIR"
+  cd $WORK_DIR
 
   check_status
 
@@ -87,5 +93,6 @@ main() {
 
   push
 }
+
 
 main
