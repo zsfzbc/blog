@@ -6,10 +6,10 @@
 
 
 -
-  name: 主页
+  name: "主页"
   icon: "fas fa-home"
 -
-  name: 类别
+  name: "类别"
   icon: "fas fa-stream"
   path: tabs
   url: categories
