@@ -28,7 +28,7 @@ This Jekyll template totally compatible with Markdown syntax. Now, let's have a 
 ## Paragraph
 
 I wandered lonely as a cloud
-
+``
 That floats on high o'er vales and hills,
 
 When all at once I saw a crowd,
@@ -79,7 +79,7 @@ Click the hook will locate the footnote[^footnote].
 
 ## Image
 
-![Desktop View](/assets/img/sample/mockup.png)
+![Desktop View](../assets/img/sample/mockup.png)
 
 
 ## Inline code

@@ -19,7 +19,7 @@
   path: tabs
   url: tags
 -
-  name: "档案"
+  name: "归档"
   path: tabs
   url: archives
   icon: "fas fa-archive"
