@@ -201,7 +201,7 @@ links_settings:
   layout: block
 
 links:
-  Title: https://zsfzbc.github.io/blog
+  #Title: http://yoursite.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -390,7 +390,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/yourname
+  permalink: https://zsfzbc.github.io/blog
   title: Follow me on GitHub
 
 
