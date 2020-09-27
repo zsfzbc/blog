@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c628a443-1e27-4764-8a92-25a4e6ed0117" name="Default Changelist" comment="" />
+    <list default="true" id="c628a443-1e27-4764-8a92-25a4e6ed0117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature-request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/other.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/issue-close-app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/issue_label_bot.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/lock.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/mergeable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/release-drafter.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/support.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AGPL3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ALGOLIA-SEARCH.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AUTHORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/DATA-FILES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/LEANCLOUD-COUNTER-SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/MATH.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UPDATE-FROM-5.1.X.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ru/DATA-FILES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ru/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ru/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ru/UPDATE-FROM-5.1.X.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/ALGOLIA-SEARCH.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/DATA-FILES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/LEANCLOUD-COUNTER-SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/MATH.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zh-CN/UPDATE-FROM-5.1.X.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ar.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/es.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/fa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/fr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/hu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/id.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/it.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ja.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ko.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/nl.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/pt-BR.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/pt.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/tr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/uk.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/vi.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/zh-CN.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/zh-HK.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/zh-TW.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_layout.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_macro/post-collapse.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_macro/post.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_macro/sidebar.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/comments.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/footer.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/head/head-unique.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/head/head.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/header/brand.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/header/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/header/menu-item.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/header/menu.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/header/sub-menu.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/languages.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/page/breadcrumb.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/page/page-header.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/pagination.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/post/post-copyright.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/post/post-followme.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/post/post-footer.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/post/post-related.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/post/post-reward.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/search/algolia-search.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/search/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/search/localsearch.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/sidebar/site-overview.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_partials/widgets.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/noscript.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/pages/schedule.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/pjax.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/schemes/gemini.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/schemes/mist.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/schemes/muse.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/schemes/pisces.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/three.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_scripts/vendors.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/analytics/baidu-analytics.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/analytics/google-analytics.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/analytics/growingio.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/analytics/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/baidu-push.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/chat/chatra.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/chat/tidio.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/changyan.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/disqus.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/disqusjs.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/gitalk.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/livere.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/comments/valine.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/math/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/math/katex.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/math/mathjax.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/quicklink.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/rating.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/search/algolia-search.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/search/localsearch.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/search/swiftype.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/statistics/busuanzi-counter.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/statistics/cnzz-analytics.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/statistics/firestore.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/statistics/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/statistics/lean-analytics.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/tags/mermaid.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/_third-party/tags/pdf.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/archive.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/category.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/index.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/page.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/post.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/tag.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/events/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/events/lib/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/events/lib/injects-point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/events/lib/injects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/changyan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/default-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/disqus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/disqusjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/gitalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/livere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/comment/valine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/default-injects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/front-matter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/locals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/minify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/filters/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/helpers/engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/helpers/font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/helpers/next-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/helpers/next-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/caniuse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/center-quote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/group-pictures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/mermaid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tags/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_colors.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/back-to-top-sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/back-to-top.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/components.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/pages/breadcrumb.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/pages/categories.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/pages/pages.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/pages/schedule.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/pages/tag-cloud.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-collapse.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-copyright.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-eof.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-expand.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-followme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-gallery.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-header.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-nav.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-reward.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-rtl.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-tags.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post-widgets.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/post/post.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/reading-progress.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/third-party/gitalk.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/third-party/math.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/third-party/related-posts.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/third-party/search.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/components/third-party/third-party.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/footer/footer.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/bookmark.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/github-banner.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/header.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/headerband.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/site-meta.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/header/site-nav.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/mobile.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/outline.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-author-links.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-author.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-blogroll.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-button.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-dimmer.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-nav.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-toc.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar-toggle.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/outline/sidebar/site-state.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/base.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/buttons.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/comments.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/highlight/copy-code.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/highlight/diff.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/highlight/highlight.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/highlight/theme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/normalize.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/pagination.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/scaffolding.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tables.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/blockquote-center.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/group-pictures.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/label.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/note.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/pdf.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/tabs.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/tags/tags.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_common/scaffolding/toggles.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_mixins.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Gemini/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Mist/_header.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Mist/_layout.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Mist/_menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Mist/_posts-expand.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Mist/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/_header.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/_layout.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/_menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/_sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/_sub-menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Muse/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/_header.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/_layout.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/_menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/_sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/_sub-menu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_schemes/Pisces/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_variables/Gemini.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_variables/Mist.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_variables/Muse.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_variables/Pisces.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/_variables/base.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/main.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/algolia_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/apple-touch-icon-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/avatar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by-nc-nd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by-nc-sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by-nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by-nd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by-sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/cc-zero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/favicon-16x16-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/favicon-32x32-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/algolia-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/bookmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/local-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/motion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/next-boot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/schemes/muse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/schemes/pisces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/anime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/font-awesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/velocity/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/lib/velocity/velocity.ui.min.js" afterDir="false" />
+    </list>
     <list id="f03b867e-c9fe-48d8-8428-0a42d43cc329" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +336,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,6 +368,7 @@
       <updated>1600737820311</updated>
       <workItem from="1600737821855" duration="6457000" />
       <workItem from="1600955206139" duration="1290000" />
+      <workItem from="1601190132756" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1600739854451</created>
@@ -130,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600959368869</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第一次提交">
+      <created>1601190153724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601190153724</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,20 +453,20 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="660" y="219" key="CommitChangelistDialog2" timestamp="1600959368418">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="880" y="295" key="CommitChangelistDialog2" timestamp="1601190152599">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="660" y="219" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600959368418" />
-    <state x="880" y="295" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1600743359670" />
+    <state x="880" y="295" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1601190152599" />
     <state x="1110" y="569" key="VCS.EditChangelistDialog" timestamp="1600742753099">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1110" y="569" key="VCS.EditChangelistDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600742753099" />
-    <state x="654" y="322" key="Vcs.Push.Dialog.v2" timestamp="1600959374708">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1601190158263">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="654" y="322" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600959374708" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600743365090" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601190158263" />
     <state x="1072" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600744548242">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
